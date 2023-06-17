@@ -1,0 +1,310 @@
+.contact-us{
+    margin-top: 50px;
+}
+.contact-us h2{
+    font-size: 50px;
+    text-align: center;
+}
+.contact-us p{
+    font-size: 30px;
+    text-align: center;
+}
+.contact-us .contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 2rem 0;
+}
+.contact-us .contact-form .form{
+    border: 2px solid #3d1766;
+    border-radius: 5px;
+    padding: 2rem;
+    background: #3d1766;
+}.contact-us .contact-form label{
+    font-size: 20px;
+    color: #fff;
+    margin: 1rem 0;
+}
+.contact-us .contact-form input{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.contact-us .contact-form textarea{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.contact-us .contact-form button{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.contact-us .contact-form button:hover{
+    background-color: #555;
+}
+.social-links h3{
+    font-size: 30px;
+    text-align: center;
+}
+.social-links .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 2rem 0;
+}
+.social-links .links a{
+    margin: 0 1rem;
+}
+.social-links .links a .fa-facebook{
+    font-size: 50px;
+    color: #3b5998;
+}
+.social-links .links a .fa-twitter{
+    font-size: 50px;
+    color: #00acee;
+}
+.social-links .links a .fa-instagram{
+    font-size: 50px;
+    color: #3f729b;
+}
+.social-links .links a .fa-linkedin{
+    font-size: 50px;
+    color: #0e76a8;
+}
+.branches h3{
+    font-size: 30px;
+    text-align: center;
+}
+.branches-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 2rem 0;
+}
+.branches-table table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+.branches-table table  tr th{
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #3d1766;
+    color: #fff;
+}
+.branches-table table tbody tr td{
+    padding: 1rem;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+/* Smart Phone Screen */
+@media (max-width: 767px){
+    .contact-us h2{
+        font-size: 30px;
+    }
+    .contact-us p{
+        font-size: 20px;
+    }
+    .contact-us .contact-form{
+        width: 100%;
+    }
+    .contact-us .contact-form .form{
+        padding: 1rem;
+    }
+    .contact-us .contact-form label{
+        font-size: 15px;
+    }
+    .contact-us .contact-form input{
+        padding: 0.5rem;
+    }
+    .contact-us .contact-form textarea{
+        padding: 0.5rem;
+    }
+    .contact-us .contact-form button{
+        padding: 0.5rem;
+        font-size: 15px;
+    }
+    .social-links h3{
+        font-size: 20px;
+    }
+    .social-links .links{
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .social-links .links a .fa-facebook{
+        font-size: 30px;
+    }
+    .social-links .links a .fa-twitter{
+        font-size: 30px;
+    }
+    .social-links .links a .fa-instagram{
+        font-size: 30px;
+    }
+    .social-links .links a .fa-linkedin{
+        font-size: 30px;
+    }
+    .branches h3{
+        font-size: 20px;
+    }
+    .branches-table{
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .branches-table table{
+        width: 100%;
+    }
+    .branches-table table  tr th{
+        padding: 0.5rem;
+    }
+    .branches-table table tbody tr td{
+        padding: 0.5rem;
+    }
+}
+
+/* tablet screens */
+@media (min-width: 768px) and (max-width: 1023px){
+    .contact-us h2{
+        font-size: 40px;
+    }
+    .contact-us p{
+        font-size: 25px;
+    }
+    .contact-us .contact-form{
+        width: 100%;
+    }
+    .contact-us .contact-form .form{
+        padding: 1rem;
+    }
+    .contact-us .contact-form label{
+        font-size: 15px;
+    }
+    .contact-us .contact-form input{
+        padding: 0.5rem;
+    }
+    .contact-us .contact-form textarea{
+        padding: 0.5rem;
+    }
+    .contact-us .contact-form button{
+        padding: 0.5rem;
+        font-size: 15px;
+    }
+    .social-links h3{
+        font-size: 25px;
+    }
+    .social-links .links{
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .social-links .links a .fa-facebook{
+        font-size: 40px;
+    }
+    .social-links .links a .fa-twitter{
+        font-size: 40px;
+    }
+    .social-links .links a .fa-instagram{
+        font-size: 40px;
+    }
+    .social-links .links a .fa-linkedin{
+        font-size: 40px;
+    }
+    .branches h3{
+        font-size: 25px;
+    }
+    .branches-table{
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .branches-table table{
+        width: 100%;
+    }
+    .branches-table table  tr th{
+        padding: 0.5rem;
+    }
+    .branches-table table tbody tr td{
+        padding: 0.5rem;
+    }
+}
+/* Large screens and desktop */
+@media (min-width: 1024px) and (max-width: 1200px){
+    .contact-us h2{
+        font-size: 50px;
+    }
+    .contact-us p{
+        font-size: 30px;
+    }
+    .contact-us .contact-form{
+        width: 100%;
+    }
+    .contact-us .contact-form .form{
+        padding: 1rem;
+    }
+    .contact-us .contact-form label{
+        font-size: 15px;
+    }
+    .contact-us .contact-form input{
+        padding: 0.5rem;
+    }
+    .contact-us .contact-form textarea{
+        padding: 0.5rem;
+    }
+    .contact-us .contact-form button{
+        padding: 0.5rem;
+        font-size: 15px;
+    }
+    .social-links h3{
+        font-size: 30px;
+    }
+    .social-links .links{
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .social-links .links a .fa-facebook{
+        font-size: 50px;
+    }
+    .social-links .links a .fa-twitter{
+        font-size: 50px;
+    }
+    .social-links .links a .fa-instagram{
+        font-size: 50px;
+    }
+    .social-links .links a .fa-linkedin{
+        font-size: 50px;
+    }
+    .branches h3{
+        font-size: 30px;
+    }
+    .branches-table{
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .branches-table table{
+        width: 100%;
+    }
+    .branches-table table  tr th{
+        padding: 0.5rem;
+    }
+    .branches-table table tbody tr td{
+        padding: 0.5rem;
+    }
+}
